@@ -2,7 +2,7 @@ package com.zzy.flysp;
 
 import android.app.Application;
 
-import com.zzy.core.spHelper.SPHelper;
+import com.zzy.flysp.core.spHelper.SPHelper;
 
 /**
  * @author zzy

@@ -1,4 +1,4 @@
-package com.zzy.core.spHelper;
+package com.zzy.flysp.core.spHelper;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -10,7 +10,7 @@ import android.support.annotation.Nullable;
 import java.util.Map;
 import java.util.Set;
 
-import static com.zzy.core.spHelper.Constant.*;
+import static com.zzy.flysp.core.spHelper.Constant.*;
 
 
 public class SPContentProvider extends ContentProvider {

@@ -1,10 +1,10 @@
-package com.zzy.core.spHelper;
+package com.zzy.flysp.core.spHelper;
 
 
 public class Constant {
     // normal constants
     public static final String CONTENT="content://";
-    public static final String AUTHORITY="com.zzy.core.spHelper";
+    public static final String AUTHORITY="com.zzy.flysp.core.spHelper";
     public static final String SEPARATOR= "/";
     public static final String CONTENT_URI =CONTENT+AUTHORITY;
     public static final String TYPE_STRING_SET="string_set";

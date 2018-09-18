@@ -1,4 +1,4 @@
-package com.zzy.core.spHelper;
+package com.zzy.flysp.core.spHelper;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,7 +7,7 @@ import java.lang.ref.SoftReference;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.zzy.core.spHelper.Constant.*;
+import static com.zzy.flysp.core.spHelper.Constant.*;
 
 
 class ContentProviderImpl {

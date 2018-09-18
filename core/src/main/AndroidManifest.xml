@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zzy.core" >
+    package="com.zzy.flysp.core" >
 
 
     <application
@@ -9,7 +9,7 @@
 
         <provider
             android:name=".spHelper.SPContentProvider"
-            android:authorities="com.zzy.core.spHelper"
+            android:authorities="com.zzy.flysp.core.spHelper"
             android:exported="false" />
 
     </application>

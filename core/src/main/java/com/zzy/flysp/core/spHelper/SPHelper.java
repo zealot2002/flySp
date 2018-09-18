@@ -1,4 +1,4 @@
-package com.zzy.core.spHelper;
+package com.zzy.flysp.core.spHelper;
 
 import android.annotation.TargetApi;
 import android.app.Application;
@@ -14,7 +14,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import static com.zzy.core.spHelper.Constant.*;
+import static com.zzy.flysp.core.spHelper.Constant.*;
 
 
 public class SPHelper {
