@@ -4,9 +4,8 @@ package com.zzy.flysp.core.spHelper;
 public class Constant {
     // normal constants
     public static final String CONTENT="content://";
-    public static final String AUTHORITY="com.zzy.flysp.core.spHelper";
     public static final String SEPARATOR= "/";
-    public static final String CONTENT_URI =CONTENT+AUTHORITY;
+//    public static final String CONTENT_URI =CONTENT+AUTHORITY;
     public static final String TYPE_STRING_SET="string_set";
     public static final String TYPE_STRING="string";
     public static final String TYPE_INT="int";
@@ -23,4 +22,5 @@ public class Constant {
     public static final String CURSOR_COLUMN_NAME = "cursor_name";
     public static final String CURSOR_COLUMN_TYPE = "cursor_type";
     public static final String CURSOR_COLUMN_VALUE = "cursor_value";
+
 }

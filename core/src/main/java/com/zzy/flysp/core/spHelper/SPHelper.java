@@ -22,6 +22,7 @@ public class SPHelper {
 
     public static Context context;
 
+    public static String CONTENT_URI = "";
     public static void checkContext() {
         if (context == null) {
             throw new IllegalStateException("context has not been initialed");
@@ -30,8 +31,12 @@ public class SPHelper {
 
     public static void init(Application application) {
         context = application.getApplicationContext();
+        CONTENT_URI = CONTENT+getAuthor(context);
     }
 
+    public static String getAuthor(Context context){
+        return context.getPackageName()+".provider";
+    }
 
     public synchronized static void save(String name, Boolean t) {
         checkContext();
